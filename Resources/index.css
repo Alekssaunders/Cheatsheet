@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Dela+Gothic+One:regular);
+
+*{
+    font-family: monospace;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/014/919/881/original/groovy-psychedelic-wavy-chessboard-seamless-pattern-hippie-twisted-gingham-checkerboard-background-checker-retro-psychedelic-seamless-texture-illustration-isolated-on-white-background-vector.jpg");
+}
+
+header{
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Dela Gothic One';
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    top: 20px;
+    -webkit-text-stroke: 0.5px rgb(84, 15, 15);
+    color: rgb(240, 129, 129);
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 50%
+}
+
+table{
+    border: 3px solid red;
+    margin: 0 auto;
+    position: relative;
+    top: 40px;
+    background-color: white;
+    height: 200px;
+    width: 650px;
+}
+
+th,
+td{
+    font-size: 15px;
+}
+
+thead
+{
+    background-color: rgb(226, 100, 100);
+    color: rgb(61, 2, 2);
+    font-weight: bold;
+}
+
+th,
+.subheader{
+    height: 50px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+td{
+    line-height: 1.5;
+    padding: 5px 10px;
+    border: 3px solid rgb(226, 100, 100);
+}
+
+.subheader{
+    text-align: center;
+    font-weight: bold; 
+}
